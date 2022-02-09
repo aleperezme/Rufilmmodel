@@ -4,7 +4,8 @@ close all
 F = 96485.3329; R = 8.314472;  %C/mol, J/(molK)
 % --- system constants
 %solution reaction
-n=1; T= 298; p.alp = 0.5; p.E0=0.21; p.ks=8; % #e-, K, [],V, 1/s
+n=1; T= 298; p.alp = 0.5; p.E0=0.21; p.ks=8; % number of e-,temperatue K,  charge transfer parameter alpha
+                                             % redox pot V, reaction rate parameter k0(eq.) 1/s.
 
 %film characteristics g0 = total load in 1 monolayer (nmol/cm2)
 Nav = 6.022*10^23; amol=71.36; p.gs = 10^9/(amol*Nav*10^-16); nl=32;
